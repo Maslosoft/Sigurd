@@ -2,11 +2,15 @@
 	"name": "maslosoft/sigurd",
 	"description": "Signals based build system",
 	"require": {
-		"maslosoft/signals": "*"
+		"maslosoft/signals": "*",
+		"maslosoft/sitcom": "*"
 	},
 	"require-dev": {
 		"maslosoft/hedron": "*"
 	},
+	"bin": [
+		"sigurd"
+	],
 	"license": [
 		"AGPL",
 		"Commercial"
