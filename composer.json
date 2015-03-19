@@ -1,13 +1,13 @@
 {
-    "name": "maslosoft/sigurd",
-    "description": "Signals based build system",
-    "require": {
-        "maslosoft/signals": "*"
-    },
-    "require-dev": {
-        "maslosoft/hedron": "*"
-    },
-    "license": [
+	"name": "maslosoft/sigurd",
+	"description": "Signals based build system",
+	"require": {
+		"maslosoft/signals": "*"
+	},
+	"require-dev": {
+		"maslosoft/hedron": "*"
+	},
+	"license": [
 		"AGPL",
 		"Commercial"
 	],
@@ -16,10 +16,10 @@
 			"Maslosoft\\Sigurd\\": "src"
 		}
 	},
-    "authors": [
-        {
-            "name": "Peter Maselkowski",
-            "email": "pmaselkowski@gmail.com"
-        }
-    ]
+	"authors": [
+		{
+			"name": "Peter Maselkowski",
+			"email": "pmaselkowski@gmail.com"
+		}
+	]
 }
