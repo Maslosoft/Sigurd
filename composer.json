@@ -2,6 +2,7 @@
 	"name": "maslosoft/sigurd",
 	"description": "Signals based build system",
 	"require": {
+		"maslosoft/addendum": "*",
 		"maslosoft/signals": "*",
 		"maslosoft/sitcom": "*"
 	},

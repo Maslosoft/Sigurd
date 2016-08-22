@@ -8,6 +8,7 @@
 
 namespace Maslosoft\Sigurd\Commands;
 
+use Maslosoft\Addendum\Interfaces\AnnotatedInterface;
 use Maslosoft\Sitcom\Command as Command2;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -18,8 +19,9 @@ use Symfony\Component\Console\Output\OutputInterface;
  *
  * @author Piotr Maselkowski <pmaselkowski at gmail.com>
  */
-class PreviewCommand extends Command
+class PreviewCommand extends Command implements AnnotatedInterface
 {
+
 	protected function configure()
 	{
 		$this->setName("preview");
@@ -35,7 +37,7 @@ EOT;
 
 	protected function execute(InputInterface $input, OutputInterface $output)
 	{
-
+		
 	}
 
 	/**
@@ -46,4 +48,5 @@ EOT;
 	{
 		$signal->add($this, 'sigurd');
 	}
+
 }
