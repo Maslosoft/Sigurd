@@ -1,7 +1,7 @@
 <!--header-->
 <!-- Auto generated do not modify between `header` and `/header` -->
 
-# <a href="https://maslosoft.com/sigurd/">Maslosoft Sigurd</a>
+# <a href="https://maslosoft.com/sigurd/"><img src="https://maslosoft.com/sigurd/sigurd.svg" style="height:24px;" alt="Sigurd Logo"></a> <a href="https://maslosoft.com/sigurd/">Maslosoft Sigurd</a>
 <a href="https://maslosoft.com/sigurd/">_Signals based build system_</a>
 
 <a href="https://packagist.org/packages/maslosoft/sigurd" title="Latest Stable Version">
