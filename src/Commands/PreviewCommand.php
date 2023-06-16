@@ -22,7 +22,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 class PreviewCommand extends Command implements AnnotatedInterface
 {
 
-	protected function configure()
+	protected function configure(): void
 	{
 		$this->setName("preview");
 		$this->setDescription("List builders");
@@ -35,16 +35,16 @@ EOT;
 		$this->setHelp($help);
 	}
 
-	protected function execute(InputInterface $input, OutputInterface $output)
+	protected function execute(InputInterface $input, OutputInterface $output): int
 	{
-		
+		return 1;
 	}
 
 	/**
 	 * @SlotFor(Maslosoft\Sitcom\Command)
-	 * @param Maslosoft\Signals\Command $signal
+	 * @param Command2 $signal
 	 */
-	public function reactOn(Command2 $signal)
+	public function reactOn(Command2 $signal): void
 	{
 		$signal->add($this, 'sigurd');
 	}

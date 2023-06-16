@@ -19,7 +19,7 @@ use Symfony\Component\Console\Application;
  */
 class SigurdApplication extends Application
 {
-	const Logo = <<<LOGO
+	public const Logo = <<<LOGO
    _____ _                      __
   / ___/(_)___ ___  ___________/ /
   \__ \/ / __ `/ / / / ___/ __  /
@@ -36,7 +36,7 @@ LOGO;
 		$this->add(new PreviewCommand());
 	}
 
-	public function getHelp()
+	public function getHelp(): string
 	{
 		return self::Logo . parent::getHelp();
 	}
